@@ -1,0 +1,39 @@
+html {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: rgb(244,168,200);
+    background: -moz-linear-gradient(100deg, rgba(244,168,200,1) 0%, rgb(145, 255, 182) 100%);
+    background: -webkit-linear-gradient(100deg, rgba(244,168,200,1) 0%, rgb(145, 255, 182) 100%);
+    background: linear-gradient(100deg, rgba(244,168,200,1) 0%, rgb(145, 255, 182) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4a8c8",endColorstr="#006df6",GradientType=1);
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(197, 246, 255);
+    text-align: center;
+}
+button{
+width: 150px;
+  height: 30px;
+  text-decoration:dashed;
+  color: #970397;
+  text-align: center;
+  line-height: 20px;
+  display:ruby-base;
+  margin: 20px auto;
+  font: normal 17px arial;
+}
+.container {
+    background: #fff;
+    border-radius: 20px;
+}
+h5{
+    color: rgb(233, 25, 25);
+}
+hr {
+    margin-left: 0;
+    width: 320px;
+    background: #000;
+}

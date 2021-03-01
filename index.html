@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    
+    <title>Qalyn mal Calculator</title>
+</head>
+<body>
+    <div class="container mt-4 shadow p-3 mb-5 bg-white rounded">
+        <div class="row">
+            <div class="col col-sm-12">
+                <h1 class="text-center">Qalyn calculator</h1>
+                <form>
+                    <label for="name" id="name" class="calculator__subtitle">Bride's/Groom's name</label>
+                    <br>
+                    <input type="text">
+                    <hr>
+
+                    <label for="startingBid" id="starting">Starting bid</label><br>
+                    <input type="number" id="startingBid">
+                    <hr>
+
+                    <label for="education_level" class="calculator__subtitle">Bride's/Groom's education:</label><br>
+                    <select id="education">
+                        <option value="blank"></option>
+                        <option value="1.5">Undergraduate degree</option>
+                        <option value="1.2">College degree</option>
+                        <option value="1.05">High school degree</option>
+                        <option value="0.9">Middle school degree</option>
+                    </select><br>
+                    <hr>
+                    
+                    <label for="family_networth" class="calculator__subtitle">Bride's/Groom's family net worth:</label><br>
+                    <select id="networth">
+                        <option value="blank"></option>
+                        <option value="2" >More than 100,000$</option>
+                        <option value="1.5">Between 50,000$ and 100,000$</option>
+                        <option value="1.2">Less than 50,000$</option>
+                    </select><br>
+                    <hr>
+
+                    <label for="skills" id="skills1" class="calculator__subtitle"> Bride's/Groom's skills:</label><br>
+                        <input type="checkbox" value="200" class="skills" id="skills"> Playing on dombra<br>
+                        <input type="checkbox" value="100" class="skills" id="skills"> Good cook<br>
+                        <input type="checkbox" value="150" class="skills" id="skills"> Easygoing character<br>
+                        <input type="checkbox" value="100" id="skills"> Sings well<br>
+                    <hr>                    
+                    
+                    <label for="age" id="age1" class="calculator__subtitle">Bride's/Groom's age:</label><br>
+                        <input type="radio" name="age" value="1.5"  id="age">
+                        <label for="age1">Between 18-23</label><br>
+
+                        <input type="radio" name="age" value="1.2"  id="age">
+                        <label for="age2">Between 24-27</label><br>  
+                        
+                        <input type="radio" name="age" value="0.95"  id="age">
+                        <label for="age3">28+</label><br>
+                    <hr>
+                    
+                    <label for="reputation" id="reputation1" class="calculator__subtitle">Bride's/Groom's reputation:</label><br>
+                    
+                    <input type="checkbox" value="0.85" id="reputation"> Gossips about his/her parent's attitude<br>
+                    <input type="checkbox" value="0.9" id="reputation"> Gossips about his/her character <br>
+                    <input type="checkbox" value="-200" id="reputation"> Gossips about his/her character <br>
+                    <hr>
+
+                    <label for="letter" id="love_letter">Write your love letter here:</label>
+                    <br>
+                    <textarea name="love_letter" id="letter" maxlength = 500></textarea>
+                </form>
+                <hr>
+                <button id="submit-quote">Calculate</button>
+            </div>
+            </div>
+            </div>
+        </div>
+            <script src="script.js"></script>
+    </body>
+</html>
